@@ -12,3 +12,8 @@ function onChangeBackgroundColor() {
     return bodyBackground.style.backgroundColor = getRandomHexColor()
 }
 
+stopBtn.addEventListener('click', onStopChangeColor)
+
+function onStopChangeColor() {
+  console.log('stop');
+}
